@@ -37,3 +37,9 @@ a.list-group-item {
   padding: 0 0;
   background: #fff;
 }
+
+#spree-header {
+  background: #fff !important;
+  background-size: cover;
+  margin-bottom: 20px;
+}

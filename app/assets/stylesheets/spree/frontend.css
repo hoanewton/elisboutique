@@ -46,6 +46,15 @@ a.list-group-item {
   margin-bottom: 20px;
 }
 
-#main-nav-bar li a {
-  color: #ccc !important;
+#main-nav-bar a {
+  color: #A6ACB2 !important;
+}
+
+#spree-header .nav a {
+  color: #A6ACB2;
+}
+
+#main-nav-bar a:hover, #spree-header .nav a:hover {
+  color: #fff !important;
+  background-color: #FACFCC !important;
 }

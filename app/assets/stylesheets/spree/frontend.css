@@ -54,7 +54,11 @@ a.list-group-item {
   color: #A6ACB2;
 }
 
-#main-nav-bar a:hover, #spree-header .nav a:hover {
+#main-nav-bar a:hover, #spree-header .nav a:hover, #sidebar a:hover {
   color: #fff !important;
   background-color: #FACFCC !important;
+}
+
+#sidebar .list-group-item a {
+  font-size: smaller !important;
 }

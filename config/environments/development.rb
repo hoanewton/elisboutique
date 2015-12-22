@@ -35,6 +35,7 @@ Rails.application.configure do
   # Checks for improperly declared sprockets dependencies.
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
+  Devise.secret_key = "efb3322d30e4cb182f96994c6931ba1400356dd7ff01696a672bb0e6bad68a6ca81a67b21c300197e4977b41c59074171fda"
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true

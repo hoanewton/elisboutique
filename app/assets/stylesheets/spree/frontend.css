@@ -1,0 +1,64 @@
+/*
+* This is a manifest file that includes stylesheets for spree_frontend
+ *= require spree/frontend/frontend_bootstrap
+ *= require_self
+ *= require_tree .
+*/
+
+/*Logo font*/
+@import url(https://fonts.googleapis.com/css?family=Cantata+One);
+/*font-family: 'Cantata One', serif;*/
+/*h1 { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; }*/
+
+/*Italiana font*/
+@import url(https://fonts.googleapis.com/css?family=Italiana:400,700);
+/*font-family: 'Italiana', serif;*/
+
+@import url(https://fonts.googleapis.com/css?family=Syncopate:400,700);
+/*'Syncopate', sans-serif;*/
+  
+/*Common font*/
+
+* {
+  /*font-style: @font-face;*/
+  font-family: 'Cantata One', serif;
+  /*font-family: 'Droid Serif', serif;*/
+}
+
+.logo-text {
+  font-size: 2em;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+}
+
+a.list-group-item {
+  border: none;
+}
+
+#spree-header #header {
+  padding: 0 0;
+  background: #fff;
+}
+
+#spree-header {
+  background: #fff !important;
+  /*background-size: cover; */
+  margin-bottom: 20px;
+}
+
+#main-nav-bar a {
+  color: #A6ACB2 !important;
+}
+
+#spree-header .nav a {
+  color: #A6ACB2;
+}
+
+#main-nav-bar a:hover, #spree-header .nav a:hover, #sidebar a:hover {
+  color: #fff !important;
+  background-color: #FACFCC !important;
+}
+
+#sidebar .list-group-item a {
+  font-size: smaller !important;
+}
